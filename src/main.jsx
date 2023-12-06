@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Main from './layout/Main.jsx';
 import Home from './pages/Home/Home.jsx';
+import Monitor from './pages/InfoList/Educaion/Monitor.jsx';
+import SchoolLevel from './pages/InfoList/Educaion/SchoolLevel.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
         path:"/",
         element:<Home></Home>
       },
+      {
+        path:"/monitoringboard",
+        element:<Monitor></Monitor>
+      },
+      {
+        path:"/schoollevelapa",
+        element:<SchoolLevel></SchoolLevel>
+      }
     ]
   },
 ]);
