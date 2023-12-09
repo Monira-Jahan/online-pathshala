@@ -3,9 +3,9 @@ import { FaAngleRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const InfoList = () => {
     return (
-        <section>
+        <section className='mt-5'>
             <div>
-                <h1 className='text-3xl font-semibold text-slate-800 text-center pb-4'>সব তথ্য এক ছাদের নীচে</h1>
+                <h1 className='text-3xl font-semibold text-slate-800 text-center pb-4 mt-16'>সব তথ্য এক ছাদের নীচে</h1>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-y-4 my-3'>
@@ -17,10 +17,10 @@ const InfoList = () => {
                         <h2 className="card-title text-center text-slate-800">শিক্ষা</h2>
                         <ul className='font-semibold'>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বহি: বাংলাদেশ ছুটি</li>
-                            <Link to="/monitoringboard"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>মনিটরিং বোর্ড</li></Link>
-                           <Link to="/schoollevelapa"> <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বার্ষিক কর্মসম্পাদন চুক্তি</li></Link>
+                            <Link to="/monitoringboard"><li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>মনিটরিং বোর্ড</li></Link>
+                           <Link to="/schoollevelapa"> <li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>বার্ষিক কর্মসম্পাদন চুক্তি</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>সিটিজেন চার্টার</li>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>একাডেমিক</li>
+                            <li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>একাডেমিক</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>শিক্ষা পদক</li>
                         </ul>
                         
@@ -32,8 +32,8 @@ const InfoList = () => {
                     <p className="absolute right-0 mr-4 mt-4 px-4 bg-slate-900 text-white"></p>
                     <div className="card-body flex flex-col items-start text-slate-700">
                         <h2 className="card-title text-center text-slate-800">অর্থ</h2>
-                        <ul className='font-semibold'>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>অবসর ও পেনশন</li>
+                        <ul className='font-semibold '>
+                            <Link to="/retiredpension"><li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>অবসর ও পেনশন</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>আর্থিক অনুদান</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>কর্মচারী কল্যাণ বোর্ড</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>চিকিৎসা অনুদান</li>
