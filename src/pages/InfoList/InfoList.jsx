@@ -17,10 +17,10 @@ const InfoList = () => {
                         <h2 className="card-title text-center text-slate-800">শিক্ষা</h2>
                         <ul className='font-semibold'>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বহি: বাংলাদেশ ছুটি</li>
-                            <Link to="/monitoringboard"><li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>মনিটরিং বোর্ড</li></Link>
-                           <Link to="/schoollevelapa"> <li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>বার্ষিক কর্মসম্পাদন চুক্তি</li></Link>
+                            <Link to="/monitoringboard"><li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>মনিটরিং বোর্ড</li></Link>
+                           <Link to="/schoollevelapa"> <li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>বার্ষিক কর্মসম্পাদন চুক্তি</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>সিটিজেন চার্টার</li>
-                            <li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>একাডেমিক</li>
+                            <li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>একাডেমিক</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>শিক্ষা পদক</li>
                         </ul>
                         
@@ -33,9 +33,9 @@ const InfoList = () => {
                     <div className="card-body flex flex-col items-start text-slate-700">
                         <h2 className="card-title text-center text-slate-800">অর্থ</h2>
                         <ul className='font-semibold '>
-                            <Link to="/retiredpension"><li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>অবসর ও পেনশন</li></Link>
+                            <Link to="/retiredpension"><li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>অবসর ও পেনশন</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>আর্থিক অনুদান</li>
-                            <Link to="/bkkbnotice"><li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>কর্মচারী কল্যাণ বোর্ড</li></Link>
+                            <Link to="/bkkbnotice"><li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>কর্মচারী কল্যাণ বোর্ড</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>চিকিৎসা অনুদান</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>উচ্চতর গ্রেড</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>শিক্ষা পদক</li>
@@ -84,12 +84,12 @@ const InfoList = () => {
                     <div className="card-body flex flex-col items-start text-slate-700">
                         <h2 className="card-title text-center text-slate-800">প্রশিক্ষণ ও পরিদর্শন</h2>
                         <ul className='font-semibold'>
-                           <Link to="/stipendprogram"> <li className='font-semibold flex hover:text-blue-600'><FaAngleRight className='pr-2'/>সহায়িকা</li></Link>
-                            <Link to="/trainingactivities"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>ফরম্যাট</li></Link>
+                           <Link to="/stipendprogram"> <li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>সহায়িকা</li></Link>
+                            <Link to="/trainingactivities"><li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>ফরম্যাট</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>ফলোআপ</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বিদ্যালয় পরিদর্শন</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>অফিস পরিদর্শন</li>
-                           <Link to="/mathtraining"> <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বিষয়ভিত্তিক প্রশিক্ষণ</li></Link>
+                           <Link to="/mathtraining"> <li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>বিষয়ভিত্তিক প্রশিক্ষণ</li></Link>
                             
                             
                         </ul>
@@ -125,7 +125,7 @@ const InfoList = () => {
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>শিক্ষা</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/> স্বাস্থ্য</li>
                             <Link to="/taxcircular">
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>অর্থ</li></Link>
+                            <li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>অর্থ</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>জনপ্রশাসন</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বিবিধ</li>
                             
@@ -146,7 +146,7 @@ const InfoList = () => {
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>তথ্য উচ্চ মাধ্যমিক</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>বিশ্ববিদ্যালয়</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>ভর্তি ও নিয়োগ</li>
-                            <Link to="/result"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>ফলাফল</li></Link>
+                            <Link to="/result"><li className='font-semibold flex text-blue-600 hover:text-gray-700'><FaAngleRight className='pr-2'/>ফলাফল</li></Link>
                             
                             
                             
@@ -161,8 +161,8 @@ const InfoList = () => {
                     <div className="card-body flex flex-col items-start text-slate-700">
                         <h2 className="card-title text-center text-slate-800">নোটিশ ও সাম্প্রতিক পত্র</h2>
                         <ul className='font-semibold'>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>সাম্প্রতিক</li>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>জরুরী</li>
+                            <Link to="/annualevaluation"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>সাম্প্রতিক</li></Link>
+                            <Link to="/ipemis"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>জরুরী</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>জনপ্রিয়</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>অর্থ ও হিসাব</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>প্রশিক্ষণ</li>
@@ -226,7 +226,7 @@ const InfoList = () => {
                     <div className="card-body flex flex-col items-start text-slate-700">
                         <h2 className="card-title text-center text-slate-800">অনলাইন পাঠশালা পরিবার‌</h2>
                         <ul className='font-semibold'>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>উপদেষ্টা</li>
+                        <Link to="/advisorpanel"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>উপদেষ্টা</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>সমন্বয়ক</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>এডমিন</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>মডারেটর</li>

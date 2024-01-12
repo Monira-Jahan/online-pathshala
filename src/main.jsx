@@ -17,6 +17,9 @@ import TrainingActivities from './pages/InfoList/Training/TrainingActivities.jsx
 import MathTraining from './pages/InfoList/Training/MathTraining.jsx';
 import TaxCircular from './pages/InfoList/Law/TaxCircular.jsx';
 import Result from './pages/InfoList/Admission/Result.jsx';
+import AnnualEvaluation from './pages/InfoList/Notice/AnnualEvaluation.jsx';
+import Ipemis from './pages/InfoList/Notice/Ipemis.jsx';
+import Advisor from './pages/InfoList/Team/Advisor.jsx';
 
 const router = createBrowserRouter([
   {
@@ -62,6 +65,18 @@ const router = createBrowserRouter([
       {
         path:"/result",
         element:<Result></Result>
+      },
+      {
+        path:"/annualevaluation",
+        element:<AnnualEvaluation></AnnualEvaluation>
+      },
+      {
+        path:"/ipemis",
+        element:<Ipemis></Ipemis>
+      },
+      {
+        path:"/advisorpanel",
+        element:<Advisor></Advisor>
       },
     ]
   },
