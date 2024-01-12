@@ -20,6 +20,8 @@ import Result from './pages/InfoList/Admission/Result.jsx';
 import AnnualEvaluation from './pages/InfoList/Notice/AnnualEvaluation.jsx';
 import Ipemis from './pages/InfoList/Notice/Ipemis.jsx';
 import Advisor from './pages/InfoList/Team/Advisor.jsx';
+import Coordinator from './pages/InfoList/Team/Coordinator.jsx';
+import Admin from './pages/InfoList/Team/Admin.jsx';
 
 const router = createBrowserRouter([
   {
@@ -77,6 +79,14 @@ const router = createBrowserRouter([
       {
         path:"/advisorpanel",
         element:<Advisor></Advisor>
+      },
+      {
+        path:"/coordinatorpanel",
+        element:<Coordinator></Coordinator>
+      },
+      {
+        path:"/adminpanel",
+        element:<Admin></Admin>
       },
     ]
   },

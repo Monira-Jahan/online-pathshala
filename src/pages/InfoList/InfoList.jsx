@@ -227,8 +227,8 @@ const InfoList = () => {
                         <h2 className="card-title text-center text-slate-800">অনলাইন পাঠশালা পরিবার‌</h2>
                         <ul className='font-semibold'>
                         <Link to="/advisorpanel"><li className='font-semibold flex'><FaAngleRight className='pr-2'/>উপদেষ্টা</li></Link>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>সমন্বয়ক</li>
-                            <li className='font-semibold flex'><FaAngleRight className='pr-2'/>এডমিন</li>
+                        <Link to="/coordinatorpanel"> <li className='font-semibold flex'><FaAngleRight className='pr-2'/>সমন্বয়ক</li></Link>
+                        <Link to="/adminpanel">  <li className='font-semibold flex'><FaAngleRight className='pr-2'/>এডমিন</li></Link>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>মডারেটর</li>
                             <li className='font-semibold flex'><FaAngleRight className='pr-2'/>কন্ট্রিবিউটর</li>
                       </ul>
